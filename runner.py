@@ -24,8 +24,8 @@ PKT = timezone(timedelta(hours=5))          # Pakistan Standard Time (UTC+5)
 # (hour, minute) pairs in PKT when the report should be sent
 # Weekdays only (Mon=0 … Fri=4). Remove or add as you like.
 RUN_TIMES = [
-    (9, 0),    # 09:00 PKT — morning briefing
-    # (16, 30),  # 16:30 PKT — close of market  ← uncomment to enable
+    (11, 0),    # 09:00 PKT — morning briefing
+     (18, 30),  # 16:30 PKT — close of market  ← uncomment to enable
 ]
 
 # ── Logging ───────────────────────────────────────────────────────────────────
