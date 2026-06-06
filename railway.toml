@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+# This keeps the container alive doing nothing between cron runs
+startCommand = "python cron_runner.py"
+restartPolicyType = "never"
